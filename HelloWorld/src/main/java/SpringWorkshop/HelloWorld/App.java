@@ -6,8 +6,15 @@ package SpringWorkshop.HelloWorld;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+   public String message;
+
+public String getMessage() {
+	return message;
+}
+
+public void setMessage(String message) {
+	this.message = message;
+}
+   
+   
 }
